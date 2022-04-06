@@ -1,0 +1,15 @@
+<h1>showing artical</h1>
+
+<p>
+    Title: <%= @artical.title%>
+
+</p>
+
+<p> Description: <%= @artical.description %>
+</p>
+<p>
+<%= link_to "Edit the Artical", edit_artical_path(@artical)%>
+</p>
+<p>
+<%= link_to "Back to Artical list page", articals_path%>
+</p>
