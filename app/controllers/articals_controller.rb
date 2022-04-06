@@ -27,6 +27,7 @@ class ArticalsController < ApplicationController
   end
 
   def destroy
+    @artical.destroy
     redirect_to articals_path
   end
 
